@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Network Calculator</string>
+    <string name="name2">IP Calculate</string>
+	<string name="title">Network Calculator</string>
+	<string name="IP">IPv4</string>
+	<string name="calculate">Calculate</string>
+	<string name="erase">Erase</string>
+	<string name="hosts">Hosts:</string>
+	<string name="mask">Mask (Decimal):</string>
+	<string name="network">Network IP:</string>
+	<string name="broadcast">Broadcast IP:</string>
+	<string name="text1">Touch to start!</string>
+	<string name="exit">Exit</string>
+</resources>

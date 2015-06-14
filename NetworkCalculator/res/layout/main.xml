@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_btn_shakespeare">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewIcon"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text1"
+        android:textSize="40sp"
+        android:shadowRadius="1.8"
+        android:shadowDx="1.8"
+        android:shadowDy="1.8"
+        android:shadowColor="#000000"
+        android:textColor="#2F4F4F"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="150dip"
+        android:layout_height="150dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        android:clickable="true"
+        android:src="@drawable/nc_icon" />
+    
+</RelativeLayout>
